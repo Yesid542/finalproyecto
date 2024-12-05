@@ -1,0 +1,46 @@
+body {
+    background-image: url(/img/BackgroundProyecto.png);
+    background-size: cover;
+}
+
+.carousel{
+    height: 100%;
+    
+}
+.overlay { position: absolute; 
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Color negro con 50% de opacidad */ 
+} 
+.carousel-caption { 
+    position: relative; 
+    z-index: 1; /* Asegura que el texto esté sobre la capa de superposición */ 
+    color: white;
+}
+#contenedor{ 
+    display: flex; 
+    overflow-x: auto; /* Permite el desplazamiento horizontal */ 
+    white-space: nowrap; /* Evita que los elementos se desplacen a la siguiente línea */ 
+    padding: 10px; /* Añade un poco de relleno */ 
+     /* Color de fondo de la fila */ 
+}
+.cajas{
+    border-radius: 10px;
+    display: inline-block;
+    color: wheat;
+    height: 300px;
+    min-width: 300px;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+
+.titulos{
+    margin-top: 40px;
+    color:rgb(200, 46, 231);
+    margin-left: 12%;
+}
+.color{
+    background-color:rgb(200, 46, 231) ;
+}

@@ -1,0 +1,53 @@
+body{
+    background-image: url(../img/BackgroundProyecto.png);
+    background-size: cover;
+}
+.left-side {
+    background-color: #961B71; /* Morado */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.left-side img {
+    max-height: 90%;
+    max-width: 90%;
+    object-fit: contain;
+}
+
+.right-side {
+    background-color: #252323; /* Azul */
+    color: #fff;
+}
+h1,h2{
+    color: #961B71;
+}
+
+.form-label {
+    color: #961B71;
+}
+
+input{
+    background-color: #A3B7C9;
+    opacity: 40%;
+}
+
+.input::placeholder{
+    color: white;
+}
+
+.btn-custom,#atras{
+    background-color: #961B71;
+    border: none;
+}
+.btn-custom:hover {
+    background-color: #731155;
+}
+a{
+    color: #961B71;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
